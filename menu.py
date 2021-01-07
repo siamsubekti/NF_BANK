@@ -29,7 +29,7 @@ def selectMenu(item):
     elif item == 4:
         return transfer.transfer()
     elif item == 5:
-        daftarTransfer.listTransfer()
+        return daftarTransfer.listTransfer()
     else:
         return keluar()
 
