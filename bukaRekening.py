@@ -15,7 +15,7 @@ def buka():
     try:
         input_setor_awal = int(input("Masukan setoran awal: "))
         if input_setor_awal != 0:
-            rek = createRekening()
+           rek = createRekening()
         else:
             print("Setoran tidak boleh kosong")
             return buka()
